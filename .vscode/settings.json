@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.etrl": "ethereal",
+    "iostream": "cpp"
+  }
+}
