@@ -1,0 +1,1 @@
+{"name":"Local: gaol_parser","url":"d:\\Workspace\\Competitive Programing Cpp\\gaol_parser.cpp","tests":[{"id":1655875578244,"input":"G()()()()(al)","output":"goooal"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Workspace\\Competitive Programing Cpp\\gaol_parser.cpp","group":"local","local":true}
