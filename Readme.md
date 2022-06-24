@@ -1,3 +1,1 @@
-cpst
-
-ctrl + Alt + B to run
+# Competitive-Programing-Cpp
