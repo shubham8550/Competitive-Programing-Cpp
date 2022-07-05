@@ -3,5 +3,8 @@
     "*.etrl": "ethereal",
     "iostream": "cpp",
     "ostream": "cpp"
+  },
+  "files.exclude": {
+    "*.bin": true
   }
 }
