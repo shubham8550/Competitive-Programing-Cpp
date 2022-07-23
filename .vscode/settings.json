@@ -2,7 +2,8 @@
   "files.associations": {
     "*.etrl": "ethereal",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "bitset": "cpp"
   },
   "files.exclude": {
     "*.bin": true
