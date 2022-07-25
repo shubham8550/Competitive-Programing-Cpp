@@ -21,6 +21,6 @@ int main()
     }
     cout << *max_element(begin(Hash), end(Hash)) << endl;
 
-    // Code Here
+    // O(n)
     return 0;
 }
