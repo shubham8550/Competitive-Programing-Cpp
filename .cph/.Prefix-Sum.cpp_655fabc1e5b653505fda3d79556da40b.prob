@@ -1,0 +1,1 @@
+{"name":"Local: Prefix-Sum","url":"d:\\Workspace\\Competitive Programing Cpp\\Prefix-Sum.cpp","tests":[{"id":1658725107560,"input":"6\n3 6 2 8 9 2\n4\n2 3\n4 6\n1 5\n3 6","output":"8\n19\n28\n21"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Workspace\\Competitive Programing Cpp\\Prefix-Sum.cpp","group":"local","local":true}

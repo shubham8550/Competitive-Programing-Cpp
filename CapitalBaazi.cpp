@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// capital baazi
 int main()
 {
     while (cin)
