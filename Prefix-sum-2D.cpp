@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-
+// its hashing not prefix sum Opsie
 using namespace std;
 const int N = 1e3 + 10;
 int metrix[N][N];
