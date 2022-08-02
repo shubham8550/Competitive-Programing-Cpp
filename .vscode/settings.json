@@ -3,7 +3,10 @@
     "*.etrl": "ethereal",
     "iostream": "cpp",
     "ostream": "cpp",
-    "bitset": "cpp"
+    "bitset": "cpp",
+    "array": "cpp",
+    "string": "cpp",
+    "string_view": "cpp"
   },
   "files.exclude": {
     "*.bin": true

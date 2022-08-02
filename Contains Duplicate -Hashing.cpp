@@ -2,12 +2,6 @@
 // https://leetcode.com/problems/contains-duplicate/
 using namespace std;
 
-int main()
-{
-    // Code Here
-    return 0;
-}
-
 class Solution
 {
 public:
@@ -25,3 +19,25 @@ public:
         return false;
     }
 };
+
+int main()
+{
+    vector<int> data;
+    int i = 0;
+    while (cin)
+    {
+        int v;
+        cin >> v;
+        data.push_back(v);
+        i++;
+    }
+    data.pop_back();
+    Solution s;
+    if (s.containsDuplicate(data))
+        cout
+            << "true" << endl;
+    else
+        cout << "false" << endl;
+
+    return 0;
+}
