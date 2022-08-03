@@ -1,0 +1,1 @@
+{"name":"Local: word-pattern","url":"d:\\Workspace\\Competitive Programing Cpp\\word-pattern.cpp","tests":[{"id":1659520102226,"input":"aabbaa\ndog dog dog","output":"true"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Workspace\\Competitive Programing Cpp\\word-pattern.cpp","group":"local","local":true}
