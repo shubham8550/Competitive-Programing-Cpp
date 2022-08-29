@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
+// names of variables in this one dont make sanse sometimes
 int main()
 {
     int lr;
@@ -11,22 +11,24 @@ int main()
     cin >> lr >> ud >> s;
     int x = lr;
     int y = ud;
+    int l = 1, r = 1, f = 1, b = 1;
+    int a = 0, p = 0;
     for (size_t i = 0; i < s.length(); i++)
     {
         switch (s[i])
         {
         case 'L':
-            lr--;
+            a++;
             break;
         case 'R':
-            lr++;
+            a++;
             break;
         case 'F':
-            ud--;
+            p++;
 
             break;
         case 'B':
-            ud++;
+            p++;
 
             break;
 
@@ -34,13 +36,41 @@ int main()
             cout << "err";
             break;
         }
-        if ((lr >= x * 2) || (ud >= y * 2))
+    }
+    // yep specially this one it should be best value for L R  and F B
+    int maxVal = (a > p) ? max(lr, ud) : min(lr, ud);
+    int minVal = (a < p) ? max(lr, ud) : min(lr, ud);
+
+    for (size_t i = 0; i < s.length(); i++)
+    {
+        switch (s[i])
+        {
+        case 'L':
+            l++;
+            break;
+        case 'R':
+            r++;
+            break;
+        case 'F':
+            f++;
+
+            break;
+        case 'B':
+            b++;
+
+            break;
+
+        default:
+            cout << "err";
+            break;
+        }
+        if ((l > maxVal) || (r > maxVal) || (f > minVal) || (b > minVal))
         {
             cout << "Unsafe" << endl;
             return 0;
         }
     }
-    if ((lr > x || lr < 0) || (ud > x || ud < 0))
+    if ((abs(l - r) >= x) || (abs(f - b) >= y))
     {
         cout << "Unsafe" << endl;
     }
