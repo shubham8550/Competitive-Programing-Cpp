@@ -1,0 +1,1 @@
+{"name":"Local: mi_max_in_ar","url":"d:\\Workspace\\Competitive Programing Cpp\\mi_max_in_ar.py","tests":[{"id":1670683566468,"input":"5\n9 16 12 5 15\n6\n14 7 22 5 32 77\n9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Workspace\\Competitive Programing Cpp\\mi_max_in_ar.py","group":"local","local":true}

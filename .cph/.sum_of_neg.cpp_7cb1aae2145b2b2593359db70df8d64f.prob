@@ -1,0 +1,1 @@
+{"name":"Local: sum_of_neg","url":"d:\\Workspace\\Competitive Programing Cpp\\sum_of_neg.cpp","tests":[{"id":1670679957057,"input":"2\n-3\n-14\n7","output":"-17"},{"id":1670679993302,"input":"1 2 3 4","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Workspace\\Competitive Programing Cpp\\sum_of_neg.cpp","group":"local","local":true}
