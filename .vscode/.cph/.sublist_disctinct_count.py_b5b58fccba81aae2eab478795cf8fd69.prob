@@ -1,0 +1,1 @@
+{"name":"Local: sublist_disctinct_count","url":"d:\\Workspace\\Competitive Programing Cpp\\.vscode\\sublist_disctinct_count.py","tests":[{"id":1674369762887,"input":"3\n4\n2\n1","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Workspace\\Competitive Programing Cpp\\.vscode\\sublist_disctinct_count.py","group":"local","local":true}
